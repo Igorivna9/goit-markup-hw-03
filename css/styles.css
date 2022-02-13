@@ -39,6 +39,8 @@ ul {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -93,7 +95,7 @@ img {
 
 /* nav */
 .header {
-    border: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--primary-border-color);
 }
 .header-container {
     display: flex;
@@ -219,7 +221,6 @@ img {
 .section-box {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 .section-box .item:not(:last-child) {
     margin-right: 30px;
@@ -262,7 +263,6 @@ img {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-
     background-color: var(--background-bg-color);
 }
 .footer > .container > .logo {
@@ -350,7 +350,9 @@ img {
     line-height: 1.87;
 }
 .project-group {
-    border: 1px solid var(--secondary-border-color);
+    border-bottom: 1px solid var(--secondary-border-color);
+    border-right: 1px solid var(--secondary-border-color);
+    border-left: 1px solid var(--secondary-border-color);
     box-sizing: border-box;
     padding: 20px 24px;
 }
